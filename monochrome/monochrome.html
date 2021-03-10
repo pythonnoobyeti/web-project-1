@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            background-color: black;
+            padding: 0px 10px;
+            display: flex;
+            flex-flow: row;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+        .item {
+            color: white;
+            line-height: 3rem;
+            padding: 0px 10px;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            flex: 0 0 max-width;
+        }
+        
+        .item:hover {
+            background-color:gray;
+        }
+
+        .lastitem {
+            margin-left: auto;
+        }
+        .content {
+            width: 50%;
+            margin: 5rem auto;
+            margin-bottom: 1rem;
+        }
+        img {
+            max-width: 100%;
+        }
+        .sidebar {
+            padding: 20px;
+            height: 80%;
+            width: 20rem;
+            background-color: rgba(0.35, 0.35, 0.35, 0.15);
+            border-radius: 10px;
+            position: fixed;
+            top: 5rem;
+            left: -18rem;
+            transition: left 1s;
+        }
+        .sidebar:hover {
+            left: 0;
+        }
+        @media screen and (max-width: 490px) {
+            .navbar {
+                flex-flow: wrap;
+                justify-content: center;
+            }
+            .lastitem {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="item firstitem">Information</a>
+        <a href="#" class="item firstitem">Contact</a>
+        <a href="#" class="item firstitem">About us</a>
+        <a href="#" class="item firstitem">Map</a>
+        <a href="#" class="item firstitem">Class</a>
+        <a href="#" class="item lastitem">Information</a>
+    </div>
+    <div class="content">
+        <p>
+            Это определяет размер элемента по умолчанию до того, как оставшееся пространство будет распределено. Это
+            может быть длина (например, 20%, 5rem и т.д.) или ключевое слово. Ключевое слово означает "посмотрите на мою
+            ширину или высоту собственности" (что было временно сделано по ключевому слову до deprecated). Ключевое
+            слово означает "размер его на основе содержания пункта" - это ключевое слово не очень хорошо поддерживается
+            еще, так что трудно проверить и труднее узнать, что его братья , и
+            делать.automain-sizecontentmax-contentmin-contentfit-
+        </p>
+        <p>
+            Это определяет размер элемента по умолчанию до того, как оставшееся пространство будет распределено. Это
+            может быть длина (например, 20%, 5rem и т.д.) или ключевое слово. Ключевое слово означает "посмотрите на мою
+            ширину или высоту собственности" (что было временно сделано по ключевому слову до deprecated). Ключевое
+            слово означает "размер его на основе содержания пункта" - это ключевое слово не очень хорошо поддерживается
+            еще, так что трудно проверить и труднее узнать, что его братья , и
+            делать.automain-sizecontentmax-contentmin-contentfit-
+        </p>
+        <p>
+            Это определяет размер элемента по умолчанию до того, как оставшееся пространство будет распределено. Это
+            может быть длина (например, 20%, 5rem и т.д.) или ключевое слово. Ключевое слово означает "посмотрите на мою
+            ширину или высоту собственности" (что было временно сделано по ключевому слову до deprecated). Ключевое
+            слово означает "размер его на основе содержания пункта" - это ключевое слово не очень хорошо поддерживается
+            еще, так что трудно проверить и труднее узнать, что его братья , и
+            делать.automain-sizecontentmax-contentmin-contentfit-
+        </p>
+        <p>
+            Это определяет размер элемента по умолчанию до того, как оставшееся пространство будет распределено. Это
+            может быть длина (например, 20%, 5rem и т.д.) или ключевое слово. Ключевое слово означает "посмотрите на мою
+            ширину или высоту собственности" (что было временно сделано по ключевому слову до deprecated). Ключевое
+            слово означает "размер его на основе содержания пункта" - это ключевое слово не очень хорошо поддерживается
+            еще, так что трудно проверить и труднее узнать, что его братья , и
+            делать.automain-sizecontentmax-contentmin-contentfit-
+        </p>
+        <p>
+            Это определяет размер элемента по умолчанию до того, как оставшееся пространство будет распределено. Это
+            может быть длина (например, 20%, 5rem и т.д.) или ключевое слово. Ключевое слово означает "посмотрите на мою
+            ширину или высоту собственности" (что было временно сделано по ключевому слову до deprecated). Ключевое
+            слово означает "размер его на основе содержания пункта" - это ключевое слово не очень хорошо поддерживается
+            еще, так что трудно проверить и труднее узнать, что его братья , и
+            делать.automain-sizecontentmax-contentmin-contentfit-
+        </p>
+    </div>
+    <div class="sidebar">
+        <img src="images/image-1.jpg">
+        <img src="images/image-2.jpg">
+    </div>
+</body>
+
+</html>
